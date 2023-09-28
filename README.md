@@ -1,8 +1,8 @@
 # Hercolis
-O bot "hercolis" é um script desenvolvido para automatizar a verificação do cadastro de clientes no sistema Zeus. Ele utiliza o Edge WebDriver e o Selenium para realizar essa tarefa de forma eficiente e precisa. O bot permite que os usuários forneçam uma lista de clientes e verifica se cada cliente está cadastrado no sistema Zeus. O resultado da verificação é registrado em arquivos de texto para análise posterior.
+O bot Hercolis é um script desenvolvido para automatizar a verificação do cadastro de clientes no sistema Zeus. Ele utiliza o Edge WebDriver e o Selenium para realizar essa tarefa de forma eficiente e precisa. O bot permite que os usuários forneçam uma lista de clientes e verifica se cada cliente está cadastrado no sistema Zeus. O resultado da verificação é registrado em arquivos de texto para análise posterior.
 
 ## Pré-Requisitos
-Antes de executar o bot "hercolis", certifique-se de que os seguintes pré-requisitos sejam atendidos:
+Antes de executar o bot Hercolis, certifique-se de que os seguintes pré-requisitos sejam atendidos:
 
 1. **Microsoft Edge WebDriver:** O bot requer a instalação do Microsoft Edge WebDriver compatível com a versão do Microsoft Edge instalada no sistema. Certifique-se de configurar o caminho do executável do Microsoft Edge WebDriver corretamente no código.
 
@@ -15,7 +15,7 @@ pip install selenium
 ```
 
 ## Como Usar o Bot
-Siga as etapas abaixo para usar o bot "hercolis":
+Siga as etapas abaixo para usar o bot Hercolis:
 
 1. Execute o script Python "hercolis.py" em um ambiente Python configurado corretamente.
 ```bash
@@ -49,17 +49,34 @@ O bot gera dois arquivos de saída:
 
 - Este bot é destinado apenas para uso educacional ou em ambientes onde a automação é permitida e ética. O uso inadequado ou não autorizado do bot pode violar os termos de serviço do site.
 
-## Autor
-O bot "hercolis" foi desenvolvido por Marcio Gustavo (Gustavo404) como um projeto de automação de tarefas.
+## Feedback, Perguntas e Relatórios de Problemas
 
-## Contribuições
-Contribuições para a melhoria deste bot são bem-vindas. Você pode enviar solicitações de pull com melhorias, correções de bugs ou novos recursos.
+Se quiser contribuir para a melhoria do projeto Hercolis, sugestões, perguntas ou encontrar algum problema, estou aqui para ajudar.
 
-## Licença
-Este bot é distribuído sob a *GPL2.0* License. Consulte o arquivo LICENSE para obter detalhes.
+### Sugestões e Melhorias
 
-## Contato
-Para entrar em contato com os desenvolvedores ou relatar problemas, você pode enviar um e-mail para gustavo404.marcio@gmail.com.
+Se você tiver sugestões ou ideias para melhorar o projeto Hercolis, sinta-se à vontade para compartilhá-las. Você pode fazer isso das seguintes maneiras:
 
-## Agradecimentos
-Agradecemos à comunidade de código aberto e às bibliotecas de automação, como o Selenium, que tornaram possível o desenvolvimento deste bot.
+- **Pull Request (PR)**: Se você deseja contribuir diretamente com código, abra um Pull Request com suas alterações propostas. Analisaremos suas contribuições e trabalharemos juntos para incorporá-las ao projeto.
+
+- **Issues**: Use as Issues para sugerir melhorias ou novos recursos. Descreva detalhadamente sua ideia para que eu possa entender e discutir como implementá-la.
+
+### Relatórios de Problemas (Bugs)
+
+Encontrou um bug ou problema em Hercolis? Você pode relatar problemas das seguintes maneiras:
+
+- **Issues**: Abra uma Issue descrevendo o problema. Inclua informações relevantes, como o ambiente em que o erro ocorreu, etapas para reproduzi-lo e qualquer mensagem de erro que tenha recebido.
+
+- **Site**: Você também pode reportar bugs em [gustavo404.com/sobre](https://www.gustavo404.com/sobre). Use os meios de contato para enviar detalhes sobre o problema encontrado.
+
+### Perguntas e Suporte
+
+Se você tiver alguma pergunta sobre como usar Hercolis ou precisar de suporte, Você pode fazer o seguinte:
+
+- **Issues Existentes**: Verifique se já existe uma Issue relacionada à sua pergunta. Talvez a resposta que você procura já esteja lá.
+
+- **Novas Issues**: Se sua pergunta não estiver coberta nas Issues existentes, sinta-se à vontade para criar uma nova Issue com sua pergunta. Ficarei feliz em responder e ajudar.
+
+- **Contato pelo Site**: Você também pode entrar em contato conosco através do site [gustavo404.com/sobre](https://www.gustavo404.com/sobre). Utilize os meios de contato para enviar suas perguntas ou dúvidas.
+
+Agradeço por sua contribuição, feedback e envolvimento na comunidade do projeto Hercolis.
