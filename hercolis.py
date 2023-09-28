@@ -1,37 +1,38 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import time
 
-# Importe o caminbo para o msedgedriver
+# Importe o caminho para o msedgedriver
 webdriver_path = "C:/Program Files (x86)/msedgedriver.exe"
-timeout = 15
 
 # Defina o serviço do Microsoft Edge com o caminho para o executável
 service = webdriver.EdgeService(executable_path=webdriver_path)
 
 # Defina as opções do Microsoft Edge
 options = webdriver.EdgeOptions()
+timeout = 15 # Timeout
 options.set_capability("timeouts", {"implicit": timeout * 500})
 driver = webdriver.Edge(service=service, options=options)
-
 wait = WebDriverWait(driver, 10)  # Defina um tempo limite de espera de 10 segundos
 
 try:
     driver.get("https://administrator.tipbrasil.com.br/zeus_admin/cp_zeus/login")
+
+    # Solicite ao usuário que insira o login e a senha
+    usuario = input("Login do Zeus: ")
+    senha = input("Senha do Zeus: ")
 
     # Esperar até que o elemento com o nome "inputUsername" esteja visível
     campo_login = WebDriverWait(driver, timeout).until(
         EC.visibility_of_element_located((By.NAME, "inputUsername"))
     )
 
-    campo_login.send_keys("AT&T_Servicos")
+    campo_login.send_keys(usuario)
     campo_senha = driver.find_element(By.ID, "inputPassword")
-    campo_senha.send_keys("Plus1203!@")
+    campo_senha.send_keys(senha)
 
     # Localize o botão pelo atributo onclick usando XPath
     botao_entrar = driver.find_element(By.XPATH, "//button[@onclick='estaVazio();']")
