@@ -45,9 +45,9 @@ O bot gera dois arquivos de saída:
 2. **semCadastrado.txt:** Este arquivo contém os dados dos clientes que não foram encontrados cadastrados no sistema Zeus durante a verificação.
 
 ## Observações
->Certifique-se de que os nomes e identificadores dos elementos da página da web (como campos de login, senha e botões) no código correspondam à estrutura da página do sistema Zeus atual. Qualquer alteração na estrutura da página pode exigir atualizações no código.
+- Certifique-se de que os nomes e identificadores dos elementos da página da web (como campos de login, senha e botões) no código correspondam à estrutura da página do sistema Zeus atual. Qualquer alteração na estrutura da página pode exigir atualizações no código.
 
->Este bot é destinado apenas para uso educacional ou em ambientes onde a automação é permitida e ética. O uso inadequado ou não autorizado do bot pode violar os termos de serviço do site.
+- Este bot é destinado apenas para uso educacional ou em ambientes onde a automação é permitida e ética. O uso inadequado ou não autorizado do bot pode violar os termos de serviço do site.
 
 ## Autor
 O bot "hercolis" foi desenvolvido por Marcio Gustavo (Gustavo404) como um projeto de automação de tarefas.
